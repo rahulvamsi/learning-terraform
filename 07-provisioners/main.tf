@@ -25,6 +25,9 @@ resource "aws_instance" "web" {
 }
 
 resource "null_resource" "cli" {
+  triggers = {
+    abc = timestamp()
+  }
   provisioner "remote-exec" {
 
     connection {
