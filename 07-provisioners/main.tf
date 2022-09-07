@@ -7,7 +7,7 @@ resource "aws_instance" "web" {
 
     connection {
       host     = self.public_ip
-      username = "root"
+      user     = "root"
       password = "DevOps321"
     }
 
