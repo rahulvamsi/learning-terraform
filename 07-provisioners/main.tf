@@ -37,7 +37,7 @@ resource "null_resource" "cli" {
     }
 
     inline = [
-      "echo Hello Universe"
+      "echo Hello Galaxy"
     ]
 
   }
