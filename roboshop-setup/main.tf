@@ -19,6 +19,7 @@ resource "aws_route53_record" "record" {
 }
 
 resource "null_resource" "ansible-apply" {
+  depends_on = [aws_route53_record.record]
   triggers = {
     abc = timestamp()
   }
