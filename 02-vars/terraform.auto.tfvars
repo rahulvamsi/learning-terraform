@@ -1,2 +1,3 @@
 test2 = 100
-test3 = 100033
+
+#these have more scope than tf.vars
