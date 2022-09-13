@@ -5,7 +5,13 @@ variable "test" {
 output "test" {
   value = var.test
 }
+variable "test4" {
+  default = "hello rahul"
+}
 
+output "test4" {
+  value = var.test4
+}
 variable "test1" {}
 
 output "test1" {
