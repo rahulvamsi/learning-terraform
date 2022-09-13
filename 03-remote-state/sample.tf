@@ -6,11 +6,10 @@
 #  }
 #}
 
-resource "aws_instance" "web" {
+resource "aws_instance" "sample" {
 
   ami           = "ami-05403c07e1c840e24"
-  instance_type = "t3.micro"
-  vpc_security_group_ids = [aws_instance.web.id]
+  instance_type = "t2.micro"
 }
 
 
