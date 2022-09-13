@@ -1,10 +1,4 @@
-#terraform {
-#  backend "s3" {
-#    bucket = "terraform-rb66"
-#    key    = "sample1/terraform.tfstate"
-#    region = "us-east-1"
-#  }
-#}
+
 
 resource "aws_instance" "sample" {
 
